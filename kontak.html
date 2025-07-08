@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap" rel="stylesheet">
@@ -38,7 +39,7 @@
 
 <body>
     <div class="wrapper">
-        <nav class="navbar">
+        <nav class="navbar" data-aos="fade-down" data-aos-duration="2000">
             <img src="image/WhatsApp_Image_2025-06-15_at_09.55.44_c7478516_Nero_AI_Image_Upscaler_Photo_Face-removebg-preview (1).png"
                 alt="" class="navbar-logo">
             <ul class="navbar-nav">
@@ -86,7 +87,7 @@
         <!-- kontak  -->
         <section class="contact-section">
             <div class="contact-cards-container">
-                                <div class="contact-card">
+                <div class="contact-card" data-aos="fade-right" data-aos-duration="2000">
                     <div class="card-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="user-icon">
                             <path
@@ -97,7 +98,7 @@
                     <p class="card-name">Pendeta Jemaat</p>
                     <p class="card-cp">CP: 081240535491</p>
                 </div>
-                <div class="contact-card">
+                <div class="contact-card" data-aos="fade-up" data-aos-duration="2000">
                     <div class="card-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="user-icon">
                             <path
@@ -108,7 +109,7 @@
                     <p class="card-name">Sekertaris Jemaat</p>
                     <p class="card-cp">CP: 082192923653</p>
                 </div>
-                <div class="contact-card">
+                <div class="contact-card" data-aos="fade-left" data-aos-duration="2000">
                     <div class="card-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="user-icon">
                             <path
@@ -221,7 +222,10 @@
     </script>
 
     <script src="script.js"></script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
