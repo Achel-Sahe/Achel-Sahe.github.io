@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const nextBtn = document.querySelector('.carousel-btn.next');
   let current = 0;
   let timer;
-  const delay = 2000;
+  const delay = 10000;
 
   function updateCarousel() {
     container.style.transform = `translateX(-${current * 100}%)`;
