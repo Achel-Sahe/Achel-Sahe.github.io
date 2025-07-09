@@ -592,7 +592,7 @@ h5 {
     padding: 1.5rem;
     text-align: center;
     color: rgb(0, 0, 0);
-    height: 1.5rem;
+    height: 1.9rem;
     font-size: 1.6rem;
     font-family: 'IBM Plex Serif';
     background-color: #ffffff;
@@ -1163,10 +1163,11 @@ h5 {
     html {
         font-size: 75%;
     }
-
-    .home-galeri-wrapper {
-        gap: 0 2rem;
+        .home-galeri-wrapper {
+        gap: 2.4rem 0;
+        flex-direction: column;
     }
+
 }
 
 /* tablet */
@@ -1206,6 +1207,7 @@ h5 {
     .home-galeri-wrapper {
         gap: 2.4rem 0;
         flex-direction: column;
+        flex-wrap: wrap;
         justify-content: center;
         margin: 0 auto;
     }
