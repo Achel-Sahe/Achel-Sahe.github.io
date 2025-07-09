@@ -1177,27 +1177,27 @@ h5 {
         display: inline-block;
         font-size: 1.1rem;
     }
-
+    
     .navbar .navbar-judul h1 {
         font-family: 'IBM Plex Serif';
-
+        
     }
 
     ul li ul.dropdown {
         font-size: .1rem;
     }
-
+    
     .navbar .navbar-nav a {
         display: block;
         margin: 1.5rem;
         padding: .5rem;
         font-size: 2rem;
     }
-
+    
     .navbar .navbar-nav a::after {
         transform-origin: 0 0;
     }
-
+    
     .navbar .navbar-nav a:hover::after {
         transform: scaleX(0.2);
         -webkit-transform: scaleX(0.2);
@@ -1205,13 +1205,13 @@ h5 {
         -ms-transform: scaleX(0.2);
         -o-transform: scaleX(0.2);
     }
-
+    
     .navbar-nav {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
-
+    
     .navbar-nav li:active {
         background-color: rgba(188, 174, 124, 0.598);
         border-radius: 10px;
@@ -1220,65 +1220,65 @@ h5 {
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-
+    
     .navbar-info {
         flex-direction: column;
         text-align: center;
         padding-top: 5px;
     }
-
+    
     .navbar-info .iconss {
         margin-right: 35px;
         margin-bottom: 10px;
     }
-
+    
     .map-icon {
         width: 1.1rem;
         height: 1.1rem;
     }
-
+    
     .navbar-info .icon-large {
         width: 2.3rem;
         height: 2.3rem;
     }
-
+    
     .navbar-info .jalan {
         margin-bottom: 10px;
     }
-
-
+    
+    
     .background-carousel {
         height: 50rem;
     }
-
-
+    
+    
     .background-scnd,
     .background-thrd {
         background-position: top;
     }
-
+    
     .contact-title,
     .judultema {
         left: 14rem;
     }
-
+    
     /* galeri  */
     .galeri-part {
         flex-wrap: wrap;
     }
-
+    
     /* informasi sumber kasih  */
     .sumberkasih-grid {
         gap: 2rem;
     }
-
+    
     .sumberkasih-title {
         font-size: 2rem;
         margin: 1rem 0;
         border: none;
         line-height: 5rem;
     }
-
+    
     .sumberkasih-item {
         width: 7rem;
     }
@@ -1286,126 +1286,126 @@ h5 {
     .sumberkasih-item i {
         font-size: 4.5rem;
     }
-
+    
     .sumberkasih-item p {
         font-size: 1.5rem;
     }
-
+    
     .sumberkasih-title-container::before,
     .sumberkasih-title-container::after {
         width: 30px;
         top: 55%;
     }
-
+    
     /* informasi sumber kasih end */
     .salam {
         flex-direction: column;
     }
-
+    
     .salam .kata-kata {
         width: 90%;
         font-size: 1.3rem;
         margin-bottom: 1.3rem;
     }
-
+    
     .first-p {
         top: -70rem;
         /* Ini masih menggunakan posisi relatif yang bisa tricky */
         width: 25rem;
         margin: auto;
         -webkit-text-stroke: 1px rgb(230, 204, 170);
-
+        
     }
-
+    
     .first-p h1 {
         font-size: 6.5vw;
         -webkit-text-stroke: white;
     }
-
+    
     .first-p h3 {
         -webkit-text-stroke: white;
         font-size: 4rem;
     }
-
+    
     /* berita  */
     .card-berita {
         width: 35rem;
         height: auto;
     }
-
+    
     /* berita end */
-
+    
     /* kontak */
     .contact-section {
         padding: 40px 15px;
         /* Kurangi padding untuk layar lebih kecil */
     }
-
+    
     .contact-title {
         font-size: 3rem;
         margin-bottom: 40px;
     }
-
+    
     #sejarah,
     #berita {
         left: 17rem;
     }
-
+    
     #wisata {
         left: 9.5rem;
     }
-
+    
     #mangkok {
         left: 7rem;
     }
-
+    
     #kontak {
         left: 11.5rem;
-
+        
     }
-
+    
     .iconss svg {
         position: relative;
         left: 9rem;
     }
-
+    
     .contact-cards-container {
         /* Untuk tablet, mungkin 2 kolom atau tetap 3 jika tidak terlalu sempit */
         grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
         gap: 20px;
         /* Kurangi jarak antar kartu */
     }
-
+    
     .contact-card {
         padding: 25px 15px;
     }
-
+    
     .card-icon {
         width: 80px;
         height: 80px;
     }
-
+    
     .user-icon {
         width: 55px;
         height: 55px;
     }
-
+    
     .card-role {
         font-size: 2.3rem;
     }
-
+    
     .home-galeri-wrapper {
         gap: 5rem 0;
     }
-
+    
     .card-name {
         font-size: 1.5rem;
     }
-
+    
     .card-cp {
         font-size: 1.3rem;
     }
-
+    
     /* map  */
     .judultema {
         left: 3.9rem;
@@ -1463,7 +1463,7 @@ h5 {
         /* Mungkin sedikit lebih lebar untuk mobile */
     }
         .navbar-judul h1 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     .salam .kata-kata {
         font-size: 1.6rem;
