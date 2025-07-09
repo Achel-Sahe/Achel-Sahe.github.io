@@ -314,7 +314,7 @@ ul li:hover ul.dropdown {
     position: relative;
     /* Hapus bottom karena sudah ada margin-top di background */
     /* bottom: 52rem; */
-    top: -57rem;
+    top: -54rem;
     /* Sesuaikan posisi jika perlu, tapi lebih baik gunakan padding/margin */
     color: #ffffff;
     display: flex;
@@ -1520,7 +1520,7 @@ h5 {
     height: 38rem;
 }
     .first-p {
-        top: -73rem;
+        top: -75rem;
     }
     .sumberkasih-title {
         font-size: 3rem;
