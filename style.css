@@ -1565,6 +1565,17 @@ h5 {
     .judultema {
         left: .5rem;
     }
+    .footer-logo a svg ,.footer-logo #yt{
+        width: 4rem;
+        height: 4rem;
+        margin-right: 1rem;
+    }
+    .footer-logo a svg:hover ,.footer-logo #yt:hover{
+        width: 5rem;
+        height: 5rem;
+        margin-right: 1rem;
+    }
+
 }
 
 /* footer  */
