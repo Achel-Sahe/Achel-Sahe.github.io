@@ -105,7 +105,6 @@ ul li ul.dropdown {
     padding: 6px 10px 10px 10px;
     border-radius: 10px;
     background-color: #b006b0; 
-
     position: absolute;
     z-index: 99999;
     display: none;
@@ -191,7 +190,8 @@ ul li:hover ul.dropdown {
 
 
 #hamburger-menu {
-    display: none;
+    display: none; 
+    color: rgb(43, 43, 43);
 }
 
 /* navbar end */
@@ -331,7 +331,6 @@ ul li:hover ul.dropdown {
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    -webkit-text-stroke: 1px rgb(224, 196, 142);
     font-size: 7rem;
     overflow: hidden;
     /*Menyembunyikanteksyangbelumditampilkan*/
@@ -339,8 +338,10 @@ ul li:hover ul.dropdown {
     /*Kursorberkedip*/
     white-space: nowrap;
     /*Mencegahteksberpindahkebarisbaru*/
+    text-shadow: 1px 1px 10px rgb(220, 203, 96);
     /*Pusatkanelemen*/
     letter-spacing: .15em;
+    color: rgb(255, 255, 255);
     /*Spasiantarhuruf*/
     animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
     -webkit-animation: typing 3.5s steps(40, end) infinite, blink-caret .75s step-end infinite;
@@ -351,9 +352,10 @@ ul li:hover ul.dropdown {
 .first-p h3 {
     font-size: 5.5rem;
     font-family: 'Qwigley';
-    color: white;
-    text-shadow: 1px 1px 10px #9b7532;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px rgb(170, 149, 75);
 }
+
 
 .data-diri {
     display: flex;
