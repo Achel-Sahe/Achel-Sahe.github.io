@@ -293,7 +293,7 @@ ul li:hover ul.dropdown {
 
 .sumberkasih-item i {
     font-size: 3rem;
-    color: #007bff;
+    color: #b300ff;
     margin-bottom: 0.7rem;
     transition: transform 0.3s;
 }
@@ -438,16 +438,6 @@ h5 {
 
 /* home end */
 
-.menu-blur-bg {
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  background-color: rgba(0, 0, 0, 0.3);
-  display: none;
-  z-index: 1;
-}
 
 /* kontak */
 
@@ -647,14 +637,14 @@ form .mb-3 {
     height: auto;
     margin: 5rem 0 7rem;
     padding: 5rem 0;
-    background-color: rgba(156, 200, 219, 0.35);
+    background-color: rgba(214, 214, 214, 0.35);
 }
 
 .sumberkasih-title {
     text-decoration: underline;
-    text-decoration-color: rgba(100, 192, 231, 0.973);
+    text-decoration-color: rgba(163, 100, 231, 0.973);
     text-underline-offset: 10px;
-    -moz-text-decoration-color: rgba(100, 192, 231, 0.973);
+    -moz-text-decoration-color: rgba(163, 100, 231, 0.973);
 }
 
 .home-galeri-wrapper {
@@ -924,7 +914,6 @@ form .mb-3 {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .berita h2 {
@@ -942,7 +931,7 @@ form .mb-3 {
     width: 30rem;
     height: auto;
     padding: 18px;
-    background-color: rgba(156, 200, 219, 0.35);
+    background-color: rgba(191, 191, 191, 0.35);
     color: black;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -1614,8 +1603,8 @@ form .mb-3 {
         left: 13rem;
     }
     .home-galeri-wrapper img {
-        width: 33rem;
-        height: 23rem;
+        width: 35rem;
+        height: 25rem;
     }
 
     /* kontak  */
