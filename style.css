@@ -6,6 +6,8 @@
     box-sizing: border-box;
     /* Tambahkan ini agar padding dan border tidak menambah ukuran elemen */
 }
+    /* font-family: 'IBM Plex Serif */
+
 
 :root {
     --first: #FBFBFB;
@@ -437,6 +439,69 @@ h5 {
 /* home end */
 
 /* kontak */
+
+#contact  {
+    background-color: #b9b9b9;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin: 5rem 0 10rem;
+    padding: 5rem 0;
+    color: white;
+    font-family: 'IBM Plex Serif';
+}
+
+#contact h1{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+}
+
+form .mb-3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    width: 40rem;
+    font-size: 1.5rem;
+}
+
+#name, #email {
+    height: 3rem;
+    margin-top: .5rem;
+    font-size: 1.5rem;
+    padding: 0 .5rem;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+#pesan {
+    margin-top: .5rem;
+    font-size: 1.5rem;
+    height: 10rem;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+#contact button{
+    width: 6.5rem;
+    background-color: blueviolet;
+    height: 2.9rem; 
+    cursor: pointer;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
 
 .contact-section {
     padding: 60px 20px;
@@ -1350,6 +1415,7 @@ h5 {
         width: 100%;
         font-size: 1.3rem;
         margin-bottom: 1.3rem;
+        margin-left: 0;
     }
     
     .first-p {
@@ -1509,7 +1575,7 @@ h5 {
         .navbar-judul h1 {
         font-size: 1.7rem;
     }
-
+    
     .salam .kata-kata {
         font-size: 2.1rem;
         margin: 2rem 0 0 0;
@@ -1523,35 +1589,42 @@ h5 {
         margin-bottom: 2rem;
     }
     .salam .gambar img {
-    width: 33rem;
-    height: 38rem;
-}
+        width: 32rem;
+        height: auto;
+    }
     .first-p {
         top: -75rem;
     }
     .sumberkasih-title {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     #visimisi,
     #pelwata {
         left: 13rem;
     }
     .home-galeri-wrapper img {
-        width: 35rem;
-        height: 25rem;
+        width: 33rem;
+        height: 23rem;
     }
+
+    /* kontak  */
+    #contact {
+        width: 30rem;
+    }
+    /* kontak end */
+    
     .card-berita.home {
         width: 36rem;
         height: 52rem;
         font-family: 'IBM Plex Serif';
-        }
-        .card-berita.home p{
+    }
+    .card-berita.home p{
         font-size: 1.7rem;
     }
     .card-berita.home .date {
             font-size: 1.5rem;
         }
-        .card-berita.home h2 {
+    .card-berita.home h2 {
         font-family: 'IBM Plex Serif';
         font-size: 2.2rem;
     }
@@ -1569,6 +1642,10 @@ h5 {
     }
     .judultema {
         left: .5rem;
+    }
+    .footer-map iframe {
+        width: 32rem;
+        height: 30rem;
     }
     .footer-logo a svg ,.footer-logo #yt{
         width: 4rem;
