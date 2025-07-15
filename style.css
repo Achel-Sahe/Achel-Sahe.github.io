@@ -438,16 +438,27 @@ h5 {
 
 /* home end */
 
+.menu-blur-bg {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+  z-index: 1;
+}
+
 /* kontak */
 
 #contact  {
-    background-color: #b9b9b9;
+    background-color: #e7e6e6;
     display: flex;
     justify-content: center;
     height: auto;
     margin: 5rem 0 10rem;
     padding: 5rem 0;
-    color: white;
+    color: #6e5223;
     font-family: 'IBM Plex Serif';
 }
 
@@ -1593,7 +1604,7 @@ form .mb-3 {
         height: auto;
     }
     .first-p {
-        top: -75rem;
+        top: -70rem;
     }
     .sumberkasih-title {
         font-size: 2.5rem;
@@ -1608,8 +1619,25 @@ form .mb-3 {
     }
 
     /* kontak  */
-    #contact {
-        width: 30rem;
+    #pesan, #email, #name {
+        width:35rem;
+        justify-content: center;
+        display: flex;
+    }
+    #pesan {
+        height: 15rem;
+    }
+    #email, #name {
+        height: 5rem;
+
+    }
+    #contact .container .mb-3{
+        padding:0 1rem;
+    }
+    #contact button {
+        margin-left: 1rem;
+        width: 9rem;
+        height: 4.5rem;
     }
     /* kontak end */
     

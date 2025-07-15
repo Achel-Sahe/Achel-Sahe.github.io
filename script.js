@@ -46,3 +46,4 @@ document.addEventListener("DOMContentLoaded", () => {
   // Awal auto-slide
   resetTimer();
 });
+
