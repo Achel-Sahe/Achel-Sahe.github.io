@@ -925,7 +925,7 @@ form .mb-3 {
 
 .card-berita {
     width: 30rem;
-    height: auto;
+    height: 40rem;
     padding: 18px;
     background-color: rgba(191, 191, 191, 0.35);
     color: black;
@@ -968,15 +968,21 @@ form .mb-3 {
     font-family: 'IBM Plex Serif';
 }
 
-.berita button {
-    background-color: transparent;
+.berita button a{
     margin: 1rem 0;
-}
-
-.berita button a {
+    padding: .8rem 1.5rem;
+    position: absolute;
+    left: 50%;
+    cursor: pointer;
+    bottom: 0;
+    border-radius: 2rem;
+    transform: translate(-50%,80%);
+    -webkit-transform: translate(-50%,80%);
+    -moz-transform: translate(-50%,80%);
+    -ms-transform: translate(-50%,80%);
+    -o-transform: translate(-50%,80%);
     font-family: 'IBM Plex Serif';
-    background-color: transparent;
-    color: hsl(250, 100%, 70%);
+    background-color: hsl(250, 100%, 70%);
     font-size: 1.3rem;
     font-weight: 400;
     transition: .2s;
@@ -984,10 +990,16 @@ form .mb-3 {
     -moz-transition: .2s;
     -ms-transition: .2s;
     -o-transition: .2s;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    color: white;
 }
 
 .berita button a:hover {
-    color: #2b00ff;
+    border: 2px solid black;
+    color: #bbbbbb;    
 }
 
 /* pelwata  */
