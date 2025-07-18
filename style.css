@@ -193,7 +193,7 @@ ul li:hover ul.dropdown {
 
 #hamburger-menu {
     display: none; 
-    color: rgb(43, 43, 43);
+    color: rgb(172, 34, 203);
 }
 
 /* navbar end */
@@ -367,7 +367,7 @@ ul li:hover ul.dropdown {
     right: 0;
     top: 5rem;
     height: 20rem;
-    background-color: rgb(58, 58, 58);
+    background-color: #711dba;
     color: rgb(255, 255, 255);
     justify-content: space-evenly;
     text-align: center;
@@ -634,10 +634,9 @@ form .mb-3 {
 
 .home-galeri {
     width: 100%;
-    height: auto;
-    margin: 5rem 0 7rem;
-    padding: 5rem 0;
-    background-color: rgba(214, 214, 214, 0.35);
+    padding-bottom: 5rem;
+    margin-top: -.5px;
+    background-color: rgba(214, 214, 214, .35);
 }
 
 .sumberkasih-title {
@@ -657,24 +656,19 @@ form .mb-3 {
     padding: 10rem 0; */
 }
 
-.home-galeri-wrapper button a {
-    padding: 1.5rem;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    height: 1.9rem;
-    font-size: 1.6rem;
-    font-family: 'IBM Plex Serif';
-    background-color: #ffffff;
-    border-radius: 40px;
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    -ms-border-radius: 40px;
-    -o-border-radius: 40px;
-    box-shadow: 0 0 10px 2px rgb(255, 255, 255);
-}
-
-.home-galeri-wrapper button {
-    background-color: transparent;
+.home-galeri-wrapper button a{
+    background-color: #a700b3;
+    width: auto;
+    height: auto;
+    padding: 1.5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    box-shadow: 0 3px 13px 2px rgb(139, 139, 139);
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    color: white;
 }
 
 .home-galeri-wrapper img {
@@ -892,7 +886,9 @@ form .mb-3 {
 
 #mangkok {
     left: 34rem;
+
 }
+
 
 #sejarah,
 #berita {
@@ -1167,7 +1163,7 @@ form .mb-3 {
     width: .5rem;
     height: .5rem;
     margin: 15px 10px;
-    fill: rgb(173, 157, 92);
+    fill: #b006b0;
     transition: .3s;
     -webkit-transition: .3s;
     -moz-transition: .3s;
@@ -1177,7 +1173,7 @@ form .mb-3 {
 }
 
 .footer svg:hover {
-    fill: rgb(255, 239, 176);
+    fill: #b006b0;
     width: 2rem;
     height: 2rem;
 }
@@ -1189,7 +1185,7 @@ form .mb-3 {
 
 .footer a,
 .last-footer a {
-    color: #978851;
+    color: #b006b0;
     transition: .3s;
     -webkit-transition: .3s;
     -moz-transition: .3s;
@@ -1199,12 +1195,12 @@ form .mb-3 {
 
 .footer a:hover,
 .last-footer a:hover {
-    color: #ffd365;
+    color: #f08ff3;
 }
 
 .footer h1 {
     margin: 1rem 0 1.2rem;
-    text-decoration: underline 3px #ac9852;
+    text-decoration: underline 3px rgb(176, 6, 176);
     text-underline-offset: 5px;
     font-size: 2.6rem;
 }
