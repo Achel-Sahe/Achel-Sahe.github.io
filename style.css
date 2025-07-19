@@ -1651,17 +1651,24 @@ form .mb-3 {
     }
 
     /* kontak  */
-    #pesan, #email, #name {
-        width:35rem;
+    .mb-3{
         justify-content: center;
-        display: flex;
+        align-items: center;
+    }
+    #contact form {
+        width: 100%;
+    }
+    .mb-3 button {
+        margin: 0 auto;
+    }
+    #pesan, #email, #name {
+        width:33rem;
     }
     #pesan {
         height: 15rem;
     }
     #email, #name {
         height: 5rem;
-
     }
     #contact .container .mb-3{
         padding:0 1rem;
