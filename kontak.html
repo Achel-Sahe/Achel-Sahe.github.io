@@ -94,24 +94,29 @@
                 </div><br><br>
                 <div class="row">
                     <div class="col">
-                        <form action="">
-                            <div class="mb-3" data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="1000">
+                        <div class="alert d-none">
+                            <p class="alert-text">pesan anda berhasil terkirim!</p>
+                            <button class="close-btn">
+                            <svg width="65px" height="65px" viewBox="-2.4 -2.4 28.80 28.80" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0)" stroke="#000000" stroke-width="0.9120000000000001" class="button-svg"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="0" fill="white" strokewidth="0"></rect></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z" fill="#0F1729"></path> </g></svg></button>
+                        </div>
+                        <form action="" name="masukan-Jemaat-GPM-Tuhaha">
+                            <div class="mb-3" data-aos="zoom-in-up" data-aos-duration="2000">
                                 <label for="name" class="form-label">Nama Lengkap</label>
-                                <input type="text" class="form-control" id="name" aria-describedby="name">
+                                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">
                             </div>
-                            <div class="mb-3" data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="1200">
+                            <div class="mb-3" data-aos="zoom-in-up" data-aos-duration="2000" >
                                 <label for="email" class="form-label">
                                     Email
                                 </label>
-                                <input type="email" class="form-control" id="email" aria-describedby="email">
+                                <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
                             </div>
-                            <div class="mb-3" data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="1400">
+                            <div class="mb-3" data-aos="zoom-in-up" data-aos-duration="2000" >
                                 <label for="pesan" class="form-label">
                                     Pesan
                                 </label>
-                                <textarea name="" class="form-control" id="pesan"></textarea>
+                                <textarea class="form-control" id="pesan" name="pesan"></textarea >
                             </div>
-                            <button data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="1600">Kirim</button>
+                            <button data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="0" type="submit" class="button">Kirim</button>
                         </form>
                     </div>
                 </div>
@@ -120,6 +125,8 @@
         <!-- usul-saran end -->
 
         <!-- kontak  -->
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#efefef" fill-opacity="1" d="M0,192L0,256L720,256L720,288L1440,288L1440,320L720,320L720,320L0,320L0,320Z"></path></svg>
         <section class="contact-section">
             <div class="contact-cards-container">
                 <div class="contact-card" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
@@ -157,6 +164,7 @@
                 </div>
             </div>
         </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#efefef" fill-opacity="1" d="M0,64L0,64L720,64L720,96L1440,96L1440,0L720,0L720,0L0,0L0,0Z"></path></svg>
 
         <section class="hubungi-wrapper" data-aos="fade-up" data-aos-duration="2000">
             <h2 class="judultema">INFORMASI LEBIH LANJUT</h2>
@@ -265,6 +273,30 @@
 <script>
   AOS.init();
 </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw_T98RMLC5RPg5r5EZNTbQE9KRqyRsYo4qqEywgAtTlXg5R0wA4W9KdGycR52u91T8/exec'
+  const form = document.forms['masukan-Jemaat-GPM-Tuhaha']
+  const myAlert = document.querySelector('.alert');
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        myAlert.classList.toggle('d-none')
+        form.reset();
+        console.log('Success!', response)
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+
+  document.querySelectorAll('.alert .close-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const svg = btn.querySelector('.alert');
+     btn.closest('.alert').style.display = 'none';
+  });
+});
+
+</script>
 </body>
 
-</html>rgb(255, 163, 255)
+</html> 
